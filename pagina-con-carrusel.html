@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página con Carrusel</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  </head>
+<body>
+    <div id="miCarrusel" class="carousel slide" data-ride="carousel">
+       
+            <!-- Indicadores del carrusel -->
+            <ul class="carousel-indicators">
+              <li data-target="#miCarrusel" data-slide-to="0" class="active"></li>
+              <li data-target="#miCarrusel" data-slide-to="1"></li>
+              <li data-target="#miCarrusel" data-slide-to="2"></li>
+            </ul>
+            
+            <!-- Slides del carrusel -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="imagenes_integrador_front/ba2.jpg" alt="Imagen 1" class="tamano-mediano">
+              </div>
+              <div class="carousel-item">
+                <img src="imagenes_integrador_front/ba3.jpg" alt="Imagen 2" class="tamano-mediano">
+              </div>
+              <div class="carousel-item">
+                <img src="imagenes_integrador_front/bsas4.jpg" alt="Imagen 3" class="tamano-mediano">
+              </div>
+            </div>
+            
+            <!-- Controles del carrusel -->
+            <a class="carousel-control-prev" href="#miCarrusel" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#miCarrusel" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </a>
+          
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

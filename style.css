@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}    
+
+body{
+   font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.menu-container{
+    background-color: rgb(78, 73, 73);
+    background-size: cover;
+    min-height: 80px;
+    display: flex;
+    align-items: center;  
+    margin-bottom: 0;
+    max-width: 100%; 
+}
+.logo{
+    display: inline-block;
+    width: 100px;
+    height: auto;
+    vertical-align: medium;
+    margin-left: 100px;
+}
+.Titulo-1{
+    color: white;
+    font-size: 16px;
+    font-weight: normal ;
+    margin-right: 400px;
+}
+
+.inline-list ul li{  
+    position: relative;
+    float: left;  
+}
+
+.inline-list ul li a{
+    color: #8c8383;
+    font-size: small;
+    margin-right:10px; 
+}
+.inline-list ul li a:hover{
+    color: aquamarine;  
+}
+
+.inline-list ul li#la-conferencia a{
+    color: white;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.inline-list ul li#la-conferencia a:hover{
+    color: aquamarine;
+}
+
+.inline-list ul li#comprar-tickets a{
+    color: rgb(24, 145, 24);
+    text-decoration: none;
+}
+
+.inline-list ul li#comprar-tickets a:hover{
+    color: aquamarine
+}
+
+.info-lugar{
+    background-image: url(imagenes_integrador_front/ba1.jpg);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;      
+    color: white; 
+   display: flex;
+}
+
+.nombre-lugar{   
+    text-align: right;
+   margin-right: 100px;
+   margin-top: 200px; 
+   font-size: 30px; 
+  font-weight: 400;  
+ } 
+ .texto-derecha{
+    margin-left: 800px;
+    margin-right: 100px;
+    text-align: right;
+    margin-bottom: 30px;
+    font-size: medium;
+    text-align: right; 
+    font-weight: normal;
+    line-height: 1.5;
+ }
+ 
+.botones-con-estilo {
+    display: inline;
+    justify-content: end;    
+
+}
+.btn-1{
+    margin-left: 1000px;
+    color: white;
+    text-align: right;   
+    font-size: smaller;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 20px;
+    text-decoration: none;
+}
+.btn-1:hover{
+    background-color: aquamarine
+}
+   
+.btn-2{   
+    color: white;
+    text-align: right;   
+    font-size: smaller;
+    background-color: green;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.btn-2:hover{
+    background-color: aquamarine
+}   
+
+.general{
+    padding: 50px 20px;
+    text-align: center;
+}
+.texto-1{
+    font-size: small;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.texto-2{
+    font-size: x-large;
+    font-weight: bold;
+}
+.general-content{
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;   
+}
+.box{
+    box-sizing: border-box;
+    justify-content: space-between;
+    border: 1px solid rgb(201, 198, 198);
+   margin-right: 30px;
+    overflow: hidden;   
+    flex: 1;   
+}
+.box img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0;
+    margin-bottom: 20px; 
+}
+
+.botones{   
+   display: inline;  
+  align-content: left;
+   padding: 20px 15px;
+}
+.btn-3{
+    color: black;
+    text-align: left;   
+    font-size:smaller ;
+    font-weight: bold;
+    background-color: rgb(255, 217, 0);
+    border: none;
+    padding: 3px 7px;
+    border-radius: 10px;
+    margin-left: -190px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+.btn-4{
+    color: white;
+    text-align: right;   
+    font-size: smaller;
+    background-color: rgb(32, 175, 211);
+    border: none;
+    padding: 3px 7px;
+    border-radius: 5px;
+    text-decoration: none;
+    
+}
+.btn-5{
+    color: white;
+    text-align: right;   
+    font-size:smaller ;
+    font-weight: bold;
+    background-color: grey;
+    border: none;
+    padding: 3px 7px;
+    border-radius: 5px;
+    margin-left: -190px;
+    margin-bottom: 20px;
+    text-decoration: none;
+ }
+.btn-6{
+    color: white;
+    text-align: right;   
+    font-size:smaller ;
+    font-weight: bold;
+    background-color: red;
+    border: none;
+    padding: 3px 7px;
+    border-radius: 5px;
+    text-decoration: none;
+ }
+
+.nombre-izquierda{
+       font-weight: normal;
+       margin-top: 3px;
+       margin-bottom: 15px;
+       text-align: left;
+       padding-left: 20px;      
+}
+     
+.referencia{
+    font-size: small;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 1.5;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.info-tour-container{
+    display: flex;
+}
+
+ .info-turistica{
+    float: right;
+    color: white;   
+    background-color: rgba(31, 33, 34, 0.787);
+    border: 1px solido white;
+}
+.info-adicional{
+    font-weight: normal ;
+    margin-left: 15px;
+    padding: 10px;
+}
+.referencia{
+    font-size: small;
+   margin-bottom: 20px;
+}
+.turismo{
+    float: left;
+    width: 50%;
+    height: auto;
+}
+.btn-7{
+    margin-left: 15px;
+    color: white;
+    text-align: right;   
+    font-size: x-small;
+    border: 1px solid white;
+    padding: 7px 10px;
+    border-radius: 5px; 
+    text-decoration: none;
+}
+.btn-7:hover{
+    background-color: aquamarine;
+}
+.carousel.img{
+   min-block-size: 50vh;
+   min-height: 300px;
+   background: no-repeat;
+   background-size: cover;
+}  
+
+.formulario{
+    max-width:100% ;
+    padding: 50px 10px;
+    text-align: center;
+}
+.invitacion{
+    font-size: small;
+    margin-bottom:15px ;
+}
+u{
+    text-decoration: underline dotted black;
+}
+.text{
+    text-align: left top;
+}
+.campo{
+    border: 1px solid grey;
+    padding: 5px 3px 5px ;
+    width: 25%;
+    margin-bottom: 10px;
+    font-size: smaller;
+}
+.campo-2{
+    width: 50%;
+    height:100px;
+    font-size: large;    
+} 
+
+.textarea{
+    font-size: medium;
+}   
+.ultimo-parrafo{
+    font-size: smaller;
+   margin-right:475px;
+   margin-top: 0px;
+}
+
+.btn-8{
+    width: 50%;
+    height: 40px;
+    background-color: rgb(155, 222, 100);
+    color: white;
+    margin-top:15px ;
+    font-size: medium ;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.btn-8:hover{
+    background-color: aquamarine
+}
+.pie-de-pagina{
+   background-color: rgb(8, 57, 72);
+    background-size: cover;
+    height: 70px;
+    display: flex;
+   justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.pie-de-pagina ul li{
+    position: relative;
+    float: left;   
+    color: white;
+    font-size: smaller;
+}
+.pie-de-pagina ul li a{
+    color: white;
+    font-size: smaller;
+    padding-right:100px;
+    text-justify: left;
+    text-decoration: none;
+}
